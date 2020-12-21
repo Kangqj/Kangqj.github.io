@@ -1,11 +1,18 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
+
+
 <head>
 <meta charset="utf-8" />
-<title>Free HTML5 Template</title>
-<meta name="description" content="Free html5 website template.">
+
+<title>Contact - Free HTML5 Template</title>
+<meta name="description" content="Free html5 website.">
 <meta name="keywords" content="free html5 templates">
 <meta name="author" content="Website  www.html-templates.co.uk">
+
 <link rel="stylesheet" href="style.css" />
+
+
 <script src="js/cufon-yui.js" type="text/javascript"></script>
 		<script src="js/Pirulen_400.font.js" type="text/javascript"></script>
 		<script type="text/javascript">
@@ -14,26 +21,36 @@
 		</script>
 
 </head>
+
 <body>
+
+
 <br />
 <br />
+
 <div id="page">
+
   <div id="logo">
-	  <div id="logoleft">
-	  <h1>Subscription Terms</h1>
-	  </div>
-	  <div id="logoright">
-	   <div id="searchBoxOne">
-			<form action="?" method="get">
-				<input type="text" class="search" />
-				<input type="submit" class="submit" value="Submit" />
-			</form> 
-		</div>
-	  </div>
+  
+  <div id="logoleft">
+  <h1>html5</h1>
   </div>
+  
+  <div id="logoright">
+   <div id="searchBoxOne">
+		<form action="?" method="get">
+        	<input type="text" class="search" />
+            <input type="submit" class="submit" value="Submit" />
+       	</form> 
+    </div>
+
+  </div>
+  
+  
+      </div>
       <!-- menu start -->
-  <ul id="nav">
-	<li class="current"><a href="#">Home</a></li>
+      <ul id="nav">
+	<li class="current"><a href="index.html">Home</a></li>
     
 	<li><a href="page.html">About Us</a></li>
     
@@ -85,36 +102,16 @@
 <br>
 <br>
        <!-- menu end -->
-	<div class="inner_copyright">Collect from <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></div>
+
   <div id="content">
-<h2>Subscription Terms</h2>
-  <p>Subscriptions automatically renew at the end of the periodunless turned off at least 24 hours before the end of the
-  current period in your iTunes Subscription Manager. Paymentwill be charged to iTunes Account at confirmation of purchase.Account will be charged for renewal within 24-hours prior tothe end of the current period, and identify the cost of the
-  renewal. Subscriptions may be managed by the user and auto~renewal may be turned off by going to the user's AccountSettings after purchase.
-  </p>
+<h2>Contact Us</h2>
+  <p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
   
-    <p>Read our Terms of Service and Privacy Policy here:https://www,getkeepsafe com/policies </p>
+    <p>I have included a simple php contact form which works perfectly and has been tested prior to launching this free html5 template, To replace with your email address navigate to <b>contactform/contact-config.php</b> and edit line 39!<br> Do not edit anything else unless you know what you are doing. Please also leave the php contact form credits intact.</p>
 
 
 <div id="textarea">
-			<h2>HTML5 Media Ready</h2>
-			
-  <p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
-
-    
-
-  <p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
-  
-  
-  			<h2>Cufon Enabled</h2>
-			
-  <p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
-
-    
-
-  <p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
-  
-    <p>Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. </p>
+			<?php include "contactform/contact.php"; ?>
 </div>
     
     <div id="sidebar">
@@ -140,7 +137,6 @@ html5 template</strong> can be downloaded free and edited in your favorite html 
  </div>
  
      <div id="footerright">
-    
      <a href="#"><img src="images/facebook.png" alt="facebook" width="32" height="32"></a>
    <a href="#">   <img src="images/twitter.png" alt="twitter" width="32" height="32"></a>
   <a href="#">    <img src="images/linkedin.png" alt="linkedin" width="32" height="32"></a>
